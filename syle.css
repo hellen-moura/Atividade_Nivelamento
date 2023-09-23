@@ -33,9 +33,10 @@ html{
     scroll-behavior: smooth;
 }
 header{
-    background-color: #B47EDA;
+    background:  linear-gradient( 360deg, transparent, #FFFFFF 1%, #B47EDA 50% ); 
     height: 90px;
     /* width: 1440px; */
+    
 }
 
 /*responsavel pela organização dos componentes do header */
@@ -44,12 +45,20 @@ header{
     align-items: center;
     justify-content: space-between;
     color: white;
+    align-items: center;
+    padding: 30px;
+    
     
 }
 /* remover a estilização que vem por padrao nos links da ul li  */
 .links-header ul li{
     list-style-type: none; 
     text-decoration: none; /*remove as bolinhas laterais*/
+    
+
+
+    
+    
 }
 
 
@@ -59,6 +68,8 @@ header{
     font-family: font-paragrafo-bold;
     font-size: 20px;
     letter-spacing: 1px;     /*realiza o espaçamento interno dos links*/
+    align-items: center;
+
 
 }
 .links-header .nav-links a:hover{ /* efeito de quando passa o mause sobre os links o mesmo muda de cor para preto*/
@@ -69,6 +80,9 @@ header{
     width: 350px;
     display: flex;
     justify-content: space-evenly;
+
+    
+
 }
 
 .input-search input{  /* realiza a estilização do input-search dentro do header declarando as fontes, bordas, largura e altura*/
@@ -165,16 +179,14 @@ header{
     justify-content: center;
 }
 
-.centralizar {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
-    background:  linear-gradient( 180deg, transparent, #FFFEFE 10%, #F1D7FE 50% );
+.cor {
+    background:  linear-gradient( 180deg, transparent, #FFFEFE 100%, #F1D7FE 50% ); 
 
 }
 
 .photo {
     margin-top: 90px;
+    margin-bottom: -5px;
 }
 
 .footer {
@@ -184,6 +196,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background:  linear-gradient( 180deg, transparent, #FFFFFF 1%, #B47EDA 50% ); 
+
 }
 
